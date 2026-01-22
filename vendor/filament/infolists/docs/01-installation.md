@@ -2,7 +2,7 @@
 title: Installation
 ---
 
-**The Infolist Builder package is pre-installed with the [Panel Builder](../panels/installation).** This guide is for using the Infolist Builder package in a custom TALL Stack application (Tailwind, Alpine, Livewire, Laravel).
+**The Infolist Builder package is pre-installed with the [Panel Builder](/docs/panels).** This guide is for using the Infolist Builder package in a custom TALL Stack application (Tailwind, Alpine, Livewire, Laravel).
 
 ## Requirements
 
@@ -18,7 +18,7 @@ Filament requires the following to run:
 Require the Infolist Builder package using Composer:
 
 ```bash
-composer require filament/infolists:"^3.3" -W
+composer require filament/infolists:"^3.2" -W
 ```
 
 ## New Laravel projects

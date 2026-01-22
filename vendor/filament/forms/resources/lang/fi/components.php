@@ -111,7 +111,7 @@ return [
         'actions' => [
 
             'deselect_all' => [
-                'label' => 'Poista valinnat',
+                'label' => 'Poista valinta kaikista',
             ],
 
             'select_all' => [
@@ -408,8 +408,6 @@ return [
 
             'create_option' => [
 
-                'label' => 'Uusi',
-
                 'modal' => [
 
                     'heading' => 'Uusi',
@@ -431,8 +429,6 @@ return [
             ],
 
             'edit_option' => [
-
-                'label' => 'Muokkaa',
 
                 'modal' => [
 
@@ -459,7 +455,7 @@ return [
 
         'loading_message' => 'Ladataan...',
 
-        'max_items_message' => 'Voit valita enintään :count.',
+        'max_items_message' => 'Vain :count voi valita.',
 
         'no_search_results_message' => 'Haku ei löytänyt tuloksia.',
 

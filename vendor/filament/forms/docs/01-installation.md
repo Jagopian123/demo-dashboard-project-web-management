@@ -2,7 +2,7 @@
 title: Installation
 ---
 
-**The Form Builder package is pre-installed with the [Panel Builder](../panels/installation).** This guide is for using the Form Builder in a custom TALL Stack application (Tailwind, Alpine, Livewire, Laravel).
+**The Form Builder package is pre-installed with the [Panel Builder](/docs/panels).** This guide is for using the Form Builder in a custom TALL Stack application (Tailwind, Alpine, Livewire, Laravel).
 
 ## Requirements
 
@@ -18,7 +18,7 @@ Filament requires the following to run:
 Require the Form Builder package using Composer:
 
 ```bash
-composer require filament/forms:"^3.3" -W
+composer require filament/forms:"^3.2" -W
 ```
 
 ## New Laravel projects

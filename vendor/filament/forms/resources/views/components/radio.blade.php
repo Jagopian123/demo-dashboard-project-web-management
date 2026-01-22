@@ -42,6 +42,7 @@
                                     'id' => $id . '-' . $value,
                                     'name' => $id,
                                     'value' => $value,
+                                    'wire:loading.attr' => 'disabled',
                                     $applyStateBindingModifiers('wire:model') => $statePath,
                                 ], escape: false)
                                 ->class(['mt-1'])

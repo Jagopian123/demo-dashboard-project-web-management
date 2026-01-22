@@ -17,7 +17,7 @@ Filament requires the following to run:
 Install the Filament Panel Builder by running the following commands in your Laravel project directory:
 
 ```bash
-composer require filament/filament:"^3.3" -W
+composer require filament/filament:"^3.2" -W
 
 php artisan filament:install --panels
 ```
@@ -38,7 +38,7 @@ Open `/admin` in your web browser, sign in, and start building your app!
 Not sure where to start? Review the [Getting Started guide](getting-started) to learn how to build a complete Filament admin panel.
 
 ## Using other Filament packages
-The Filament Panel Builder pre-installs the [Form Builder](../forms/installation), [Table Builder](../tables/installation), [Notifications](../notifications/installation), [Actions](../actions/installation), [Infolists](../infolists/installation), and [Widgets](../widgets/installation) packages. No other installation steps are required to use these packages within a panel.
+The Filament Panel Builder pre-installs the [Form Builder](/docs/forms), [Table Builder](/docs/tables), [Notifications](/docs/notifications), [Actions](/docs/actions), [Infolists](/docs/infolists), and [Widgets](/docs/widgets) packages. No other installation steps are required to use these packages within a panel.
 
 ## Improving Filament panel performance
 

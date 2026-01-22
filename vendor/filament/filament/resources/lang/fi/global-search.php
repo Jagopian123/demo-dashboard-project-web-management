@@ -4,7 +4,7 @@ return [
 
     'field' => [
         'label' => 'Globaali haku',
-        'placeholder' => 'Hae',
+        'placeholder' => 'Etsi',
     ],
 
     'no_results_message' => 'Hakutuloksia ei löytynyt.',

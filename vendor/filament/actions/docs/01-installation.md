@@ -2,7 +2,7 @@
 title: Installation
 ---
 
-**The Actions package is pre-installed with the [Panel Builder](../panels/installation).** This guide is for using the Actions package in a custom TALL Stack application (Tailwind, Alpine, Livewire, Laravel).
+**The Actions package is pre-installed with the [Panel Builder](/docs/panels).** This guide is for using the Actions package in a custom TALL Stack application (Tailwind, Alpine, Livewire, Laravel).
 
 ## Requirements
 
@@ -18,7 +18,7 @@ Filament requires the following to run:
 Require the Actions package using Composer:
 
 ```bash
-composer require filament/actions:"^3.3" -W
+composer require filament/actions:"^3.2" -W
 ```
 
 ## New Laravel projects

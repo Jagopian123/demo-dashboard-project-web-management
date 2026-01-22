@@ -69,7 +69,7 @@ trait HasState
 
             $state = $containerState instanceof Model ?
                 $this->getStateFromRecord($containerState) :
-                data_get($containerState, $this->getStatePath(isAbsolute: false));
+                data_get($containerState, $this->getStatePath());
         }
 
         if (is_string($state) && ($separator = $this->getSeparator())) {

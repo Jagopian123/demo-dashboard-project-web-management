@@ -32,10 +32,6 @@ return [
 
     'notifications' => [
 
-        'sent' => [
-            'body' => 'Vous ne recevrez aucun email si aucun compte n’est associé à cette adresse.',
-        ],
-
         'throttled' => [
             'title' => 'Trop de requêtes',
             'body' => 'Merci de réessayer dans :seconds secondes.',

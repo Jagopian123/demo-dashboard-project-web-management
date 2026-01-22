@@ -298,8 +298,6 @@ use Illuminate\Database\Eloquent\Relations\Pivot;
 
 class OrderProduct extends Pivot
 {
-    public $incrementing = true;
-
     public function order(): BelongsTo
     {
         return $this->belongsTo(Order::class);
@@ -312,7 +310,7 @@ class OrderProduct extends Pivot
 }
 ```
 
-> Please ensure that your pivot model has a primary key column, like `id`, to allow Filament to keep track of which repeater items have been created, updated and deleted. To make sure that Filament keeps track of the primary key, the pivot model needs to have the `$incrementing` property set to `true`.
+> Please ensure that your pivot model has a primary key column, like `id`, to allow Filament to keep track of which repeater items have been created, updated and deleted.
 
 Now you can use the `orderProducts` relationship with the repeater, and it will save the data to the `order_product` pivot table:
 
@@ -434,20 +432,6 @@ Repeater::make('members')
 Any fields that you use from `$state` should be `live()` if you wish to see the item label update live as you use the form.
 
 <AutoScreenshot name="forms/fields/repeater/labelled" alt="Repeater with item labels" version="3.x" />
-
-## Numbering repeater items
-
-You can add the repeater item's number next to its label using the `itemNumbers()` method:
-
-```php
-use Filament\Forms\Components\Repeater;
-
-Repeater::make('members')
-    ->schema([
-        // ...
-    ])
-    ->itemNumbers()
-```
 
 ## Simple repeaters with one field
 
@@ -596,7 +580,7 @@ Repeater::make('members')
 
 This method will automatically enable the `distinct()` and `live()` methods on the field.
 
-In case you want to add another condition to [disable options](select#disabling-specific-options) with, you can chain `disableOptionWhen()` with the `merge: true` argument:
+In case you want to add another condition to [disable options](../select#disabling-specific-options) with, you can chain `disableOptionWhen()` with the `merge: true` argument:
 
 ```php
 use Filament\Forms\Components\Repeater;

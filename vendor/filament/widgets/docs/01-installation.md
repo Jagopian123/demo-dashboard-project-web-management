@@ -2,7 +2,7 @@
 title: Installation
 ---
 
-**The Widgets package is pre-installed with the [Panel Builder](../panels/installation).** This guide is for using the Widgets package in a custom TALL Stack application (Tailwind, Alpine, Livewire, Laravel).
+**The Widgets package is pre-installed with the [Panel Builder](/docs/panels).** This guide is for using the Widgets package in a custom TALL Stack application (Tailwind, Alpine, Livewire, Laravel).
 
 ## Requirements
 
@@ -18,7 +18,7 @@ Filament requires the following to run:
 Require the Widgets package using Composer:
 
 ```bash
-composer require filament/widgets:"^3.3" -W
+composer require filament/widgets:"^3.2" -W
 ```
 
 ## New Laravel projects
